@@ -1,0 +1,17 @@
+{
+  "name": "leetcode-problems",
+  "version": "1.0.0",
+  "description": "JavaScript solutions to leetcode problems",
+  "private": true,
+  "author": "WrathOfZombies <bhargav.krishna@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "typescript": "^2.9.1"
+  }
+}
