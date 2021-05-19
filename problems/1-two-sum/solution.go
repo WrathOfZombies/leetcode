@@ -7,7 +7,7 @@ func main(nums []int, target int) []int {
 	for index, number := range nums {
 		compliment := target - number
 
-		// (Second value in a map assignment is a boolean)
+		// (TIP: Second value in a map assignment is a boolean)
 		// Find the compliment in the map and if so, return the result
 		if complimentIndex, found := numberMap[compliment]; found {
 			return []int{index, complimentIndex}
