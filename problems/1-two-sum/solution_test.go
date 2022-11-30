@@ -7,7 +7,6 @@ import (
 	. "github.com/wrathofzombies/leetcode/problems/1-two-sum"
 )
 
-// arg1 means argument 1 and arg2 means argument 2, and the expected stands for the 'result we expect'
 type twoSumTest struct {
 	test   string
 	nums   []int
